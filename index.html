@@ -47,16 +47,6 @@
     var globalOptions = []
 
 
-    function toggleBounce(e) {
-
-        var lat = e.latLng.lat()
-        var lng = e.latLng.lng()
-
-        var filtered = globalContacts.filter(function(el){
-          return round(el.latitude,4) === round(lat,4) &&  round(el.longitude,4) === round(lng,4)
-        })
-     }
-
      function createCell(text, row){
        var cell= $('<td></td>');
        cell.text(text)
@@ -64,10 +54,20 @@
      }
 
 
+     function updateContactRow(option,row, key){
+       console.log(row);
+
+       createCell(option.fullname,row)
+       createCell(option.phone,row)
+       createCell(option.fax,row)
+       createCell(option.address,row)
+       createCell(option.website,row)
+       createCell(option.email,row)
+       return row
+
+     }
      function updateOptionRow(option,row, key){
-      //             <th>Institution</th><th>Date Start</th><th>Date End</th><th>Price</th><th>Nightly Rate</th><th>Nights</th><th>Bedrooms</th><th>Bathrooms</th><th>Map</th><th>Contact</th>
-      //Create cells
-        console.log(option);
+
         createCell(option.fullname,row)
         createCell(option.start,row)
         createCell(option.end,row)
@@ -81,38 +81,25 @@
         var cell = $('<td></td>');
         cell.html("<a href='#"+key+"'>Contact Information</a>")
         row.append(cell)
-        //
-        // var start = $('<td></td>');
-        // start.text(option.start)
-        // row.append(start)
-        //
-        // var end = $('<td></td>');
-        // end.text(option.end)
-        // row.append(end)
-
-
-
-        // var tt = 'fullname'
-        // console.log(option.tt);
-        // var t = option["fullname"]
-        // console.log(t);
-
         return row
      }
 
      function updateContactsTable(contacts){
+       console.log(contacts);
         var table = $("#contactsTable")
+        contacts.forEach(function(uv){
+            console.log(uv);
+            //Each option should have own row
+            var row = $('<tr></tr>');
+            updateContactRow(uv,row, null)
+            table.append(row)
 
+        });
      }
+
      /**Rendering Table*/
      function updateOptionsTable(options){
-
-
        var table = $("#optionsTable")
-      //  console.log(options);
-
-      console.log(options);
-
        //Options
        options.forEach(function(uv){
 
@@ -155,7 +142,13 @@
 
   </head>
   <body>
-    <div id="map"></div>
+    <div class="container">
+    <div class="row">
+        <div id="map" class="col-md-12"> </div>
+    </div>
+
+    <div class="clearfix visible-xs-block"></div>
+    <div class="row">
     <div id="contacts">
       <table border="1" id="optionsTable" class="table table-striped table-bordered">
         <thead>
@@ -166,25 +159,25 @@
       <tbody>
 
       </tbody>
-      <table>
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-        <table border="1" id="contactTable" class="table table-striped table-bordered">
-          <thead>
-           <tr>
-             <th>Institution</th><th><i class="fa fa-phone" aria-hidden="true"></i>Phone</th><th><i class="fa fa-fax" aria-hidden="true"></i>Fax</th><th>Address</th><th>Website</th><th><i class="fa fa-email" aria-hidden="true"></i>Email</th>
-           </tr>
-        </thead>
-        <tbody>
-          <tr><td id="FAUContact">May 14 2017</td><td>8/8/2017</td><td>$3,250.00</td><td>$37.79</td><td>80</td><td><i class="fa fa-fax" aria-hidden="true"></i>Fax: 90 90 191 </td></tr>
-
-        </tbody>
-        <table>
-
+    </table>
 
      </div>
+   </div>
 
+   <div class="row">
+     <table border="1" id="contactsTable" class="table table-striped table-bordered">
+       <thead>
+        <tr>
+          <th>Institution</th><th><i class="fa fa-phone" aria-hidden="true"></i>Phone</th><th><i class="fa fa-fax" aria-hidden="true"></i>Fax</th><th>Address</th><th>Website</th><th><i class="fa fa-email" aria-hidden="true"></i>Email</th>
+        </tr>
+     </thead>
+     <tbody>
+  
+     </tbody>
+    </table>
+
+   </div><!-- Contact Table -->
+ </div> <!-- Container -->
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjQKE5--yWVysS8i2kiUeSTjPFd1cQy9U&callback=initMap">
     </script>

@@ -83,3 +83,13 @@ function round(value, decimals) {
     });
 
   }
+
+  function toggleBounce(e) {
+
+      var lat = e.latLng.lat()
+      var lng = e.latLng.lng()
+
+      var filtered = globalContacts.filter(function(el){
+        return round(el.latitude,4) === round(lat,4) &&  round(el.longitude,4) === round(lng,4)
+      })
+   }
