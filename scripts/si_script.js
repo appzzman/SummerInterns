@@ -40,10 +40,10 @@ var globalOptions = []
  }
 
  function updateContactsTable(contacts){
-   console.log(contacts);
+  //  console.log(contacts);
     var table = $("#contactsTable")
     contacts.forEach(function(uv){
-        console.log(uv);
+        // console.log(uv);
         //Each option should have own row
         var row = $('<tr></tr>');
         updateContactRow(uv,row, null)
