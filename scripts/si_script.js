@@ -81,7 +81,7 @@ var globalOptions = []
          globalOptions = options
          updateOptionsTable(globalOptions)
          $('#optionsTable').DataTable();
-         $('#contact').css('display','block')
+         $('#contacts').css('display','block')
 
 
     }).then(function(){
