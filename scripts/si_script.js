@@ -10,7 +10,7 @@ var globalOptions = []
 
 
  function updateContactRow(option,row, key){
-   console.log(row);
+  //  console.log(row);
 
    createCell(option.fullname,row)
    createCell(option.phone,row)
