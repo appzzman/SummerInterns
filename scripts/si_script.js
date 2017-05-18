@@ -75,17 +75,23 @@ var globalOptions = []
  }
 
  $(document).ready(function() {
-    //
+
 
     getCollection('options').then(function(options){
          globalOptions = options
          updateOptionsTable(globalOptions)
          $('#optionsTable').DataTable();
-    });
+         $('#contact').css('display','block')
 
-    getCollection('contact').then(function(contacts){
-           globalContacts = contacts
-           updateContactsTable(contacts)
-    });
+
+    }).then(function(){
+      getCollection('contact').then(function(contacts){
+             globalContacts = contacts
+             updateContactsTable(contacts)
+             $('#info').css('display','block')
+      })
+    })
+
+
 
   } )
