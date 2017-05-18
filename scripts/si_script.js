@@ -91,7 +91,4 @@ var globalOptions = []
              $('#info').css('display','block')
       })
     })
-
-
-
   } )
