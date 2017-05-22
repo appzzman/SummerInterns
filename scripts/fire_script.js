@@ -70,7 +70,7 @@ function round(value, decimals) {
                 map: map,
                 animation: google.maps.Animation.DROP,
                 title: contact.fullname,
-                icon: "images/"+contact.iconURL,
+                icon: contact.iconURL,
                 key1:contact.key
               });
               setTimeout(function () {
