@@ -1,5 +1,4 @@
-
-
+/**Responsible for interacting with a database.*/
 Array.prototype.indexOf || (Array.prototype.indexOf = function(d, e) {
     var a;
     if (null == this) throw new TypeError('"this" is null or not defined');
@@ -15,6 +14,7 @@ Array.prototype.indexOf || (Array.prototype.indexOf = function(d, e) {
     }
     return -1
 });
+
 
 function round(value, decimals) {
     return Number(Math.round(value+'e'+decimals)+'e-'+decimals);

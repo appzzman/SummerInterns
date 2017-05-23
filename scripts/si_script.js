@@ -1,3 +1,4 @@
+/**Responsible for adding content of the tables and map.*/
 var globalContacts = []
 var globalOptions = []
 
@@ -74,13 +75,14 @@ var globalOptions = []
  });
  }
 
+//Here is how it starts
  $(document).ready(function() {
 
 
     getCollection('options').then(function(options){
          globalOptions = options
          updateOptionsTable(globalOptions)
-         $('#optionsTable').DataTable();
+        // $('#optionsTable').DataTable();
          $('#contacts').css('display','block')
 
 
