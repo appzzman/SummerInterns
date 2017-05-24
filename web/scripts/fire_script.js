@@ -61,6 +61,9 @@ function round(value, decimals) {
       zoom: 6,
       center: fl_cen
     });
+    map.maxZoom = 6
+    
+
 
     getCollection('contact').then(function(contacts){
       contacts.forEach(function(contact){

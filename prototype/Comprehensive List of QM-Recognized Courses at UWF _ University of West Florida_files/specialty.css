@@ -1,0 +1,724 @@
+/*
+*************************************************
+
+University of West Florida
+Specialized Styles
+
+Maintained by UMC Web Services
+
+*************************************************
+*/
+
+
+/*Begin Innovation Institute*/
+.tagline { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/innovation/tagline_new.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.tagline.tagline-smaller { width: 328px; height: 62px; padding: 0; margin-top: 20px; }
+
+.tagline2 { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/innovation/ColorLogohalf1.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.tagline2.tagline2-smaller { width: 297px; height: 96px; padding: 0; margin-top: 0px; }
+
+.logo-innovation { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/innovation/ColorLogohalf2.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.logo-innovation.logo-big { width: 96px; height: 96px; padding: 0; float: left; }
+
+
+.l-ii-header {background: #0069aa url('/media/university-of-west-florida/style-assets/images/innovation/backgroundshells.png') 50% 50%; background-repeat: no-repeat; background-size: fixed; }
+.l-ii-header .l-ii-header-top { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #9dc4df; }
+.l-ii-header .menu-toggle-container { margin-bottom: 0; }
+@media only screen and (min-width: 1024px) { .l-ii-header.landing { padding-bottom: 530px; }
+.l-ii-header.landing + .l-ii-feature { margin-top: -530px;}
+.l-ii-header.landing:before { content: '';  no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 187px; height: 328px; } }
+
+ @media (min-width: 1024px) { .l-ii-header.landing { padding-bottom: 530px; }
+	.l-ii-header.landing + .l-ii-feature { margin-top: -530px; }
+	.l-ii-header.landing:before { content: ''; background: url('/media/university-of-west-florida/style-assets/images/innovation/backgroundshells.png') no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 187px; height: 328px; } }
+
+
+.l-ii-feature { background: white; position: relative; }
+.l-ii-section { position: relative; background: white; padding: 20px 0;}
+.eduLab {align: center; text-align:left;}
+.l-ii-main { position: relative; padding-left: 15px; padding-right: 15px; width: 100%; float: left; position: relative; }
+ 
+
+.nav-ii { text-transform: uppercase; }
+.nav-ii li { font-size: 19px; display: inline-block; width: 48%; text-align: center; }
+.nav-ii a { padding: 10px 0; }
+@media (min-width: 768px) { .nav-ii { text-align: center; margin-bottom: 20px; }
+  .nav-ii a { padding: 0 26px 0 28px; text-align: left; }
+  .nav-ii li { width: auto; border-left: 2px solid #a6c9e2; } }
+  
+.r-sidebar { position: relative; padding-left: 30px; padding-right: 15px; width: 100%; float: right; padding-top: 10px;  background: white;  background: url('/media/university-of-west-florida/style-assets/images/section-shadow-left.png') no-repeat 0 0 }
+
+.hide-for-small .r-sidebar, .hide-for-medium-down .r-sidebar , .hide-for-large-down .r-sidebar  {background: white;!important }
+
+
+/*End Innovation Institute*/
+
+
+/*Gulf Islands National Seashore Research Site - TEMP */
+/*Footer Logo*/        
+.logo-GINS { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/girec/NPS_Logo_150x200.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.logo-GINS.logo-GINSFoot-big {width: 101px; height: 135px; padding: 0; float: left; }    
+/*Header Logo*/
+.logo-GINS-header { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/girec/NPS_GINS-Logo.png'); background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; }
+.logo-GINS-header.logo-smaller { width: 175px; height: 75px; padding: 0; float: left; margin-top: 5px; margin-bottom: 5px;}
+
+.logo-GIREC { font-size: 40px; font-family: 'Oswald', sans-serif; color: white; display:block; margin-left:auto; margin-right: auto; max-width: 17em;}
+.logo-GIREC:visited { color: white; }
+.logo-GIREC:focus { color: white; }
+.logo-GIREC:hover { color: white; }
+.logo-GIREC:active { color: white; }
+.logo-GIREC span { color: #b1d74a; }
+
+/*END*/
+
+
+
+/*Begin BEI*/
+.taglineBEI { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/bei/BEI_wordsonly.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.taglineBEI.taglineBEI-smaller { width: 307px; height: 150px; padding: 0; margin-top: 0px; }
+.logo-BEI { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/bei/beihalflogo1.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.logo-BEI.logo-BEI-big { width: 150px; height: 150px; padding: 0; float: left; }
+
+.l-bei-header {background: #0069aa url('/media/university-of-west-florida/style-assets/images/bei/BEI_BackgroundElement.png') 50% 50%; background-repeat: no-repeat; background-size: fixed; }
+.l-bei-header .l-bei-header-top { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #9dc4df; }
+.l-bei-header .menu-toggle-container { margin-bottom: 0; }
+.l-bei-feature { background: white; position: relative; }
+.l-bei-section { position: relative; background: white; padding: 20px 0; }
+@media only screen and (min-width: 1024px) { .l-bei-header.landing { padding-bottom: 530px; }
+.l-bei-header.landing + .l-bei-feature { margin-top: -530px;}
+.l-bei-header.landing:before { content: '';  no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 187px; height: 328px; } }
+ 
+ @media (min-width: 1024px) { .l-bei-header.landing { padding-bottom: 530px; }
+  .l-bei-header.landing + .l-bei-feature { margin-top: -530px; }
+  .l-bei-header.landing:before { content: ''; background: url('/media/university-of-west-florida/style-assets/images/bei/BEI_BackgroundElement.png') no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 187px; height: 328px; } }
+.l-bei-main { position: relative; padding-left: 15px; padding-right: 15px; width: 100%; float: left; position: relative; }
+ 
+
+
+.nav-bei { text-transform: uppercase; }
+.nav-bei li { font-size: 19px; display: inline-block; width: 48%; text-align: center; }
+.nav-bei a { padding: 10px 0; }
+@media (min-width: 768px) { .nav-bei { text-align: center; margin-bottom: 20px; }
+  .nav-bei a { padding: 0 26px 0 28px; text-align: left; }
+  .nav-bei li { width: auto; border-left: 2px solid #a6c9e2; } }
+
+/*End BEI*/
+
+
+/*Start Custom Colors - CA - Oct 2013 - Updated Sept 23, 2014*/
+
+.hr-slat-titleB { color: #0069aa; font: normal 34px/1.29 "Oswald"; font-style: normal; }
+.hr-slat-titleB a { color: #0069aa; }
+.hr-slat-titleB a:visited { color: #0069aa; }
+.hr-slat-titleB a:hover { color: #0069aa; }
+.hr-slat-titleB a:active { color: #0069aa; }
+
+
+.hr-blue { color: #0069aa; }
+.hr-blue a { color: #0069aa; }
+.hr-blue a:visited { color: #0069aa; }
+.hr-blue a:hover { color: #0069aa; }
+.hr-blue a:active { color: #0069aa; }
+
+.stripe { background: url('/media/university-of-west-florida/style-assets/images/pattern-blue.png'); }
+.stripe span { background-color: white; display: inline-block; padding-right: 12px; padding-left: 12px; margin-left: -12px; }
+
+
+/*Emergency Site*/
+.hr-twitter:before { margin-right: 10px; display: inline-block; vertical-align: middle; }
+.hr-twitter:before { content: url('/media/university-of-west-florida/style-assets/images/hr-twitter.svg'); }
+.no-svg .hr-twitter:before { content: url('/media/university-of-west-florida/style-assets/images/hr-twitter.png'); }
+/*End*/
+
+/*End Custom Colors*/
+
+
+/*Start FAQ Open Close*/
+
+.FAQ { margin-bottom: 5px; }
+.FAQ h6 { color: #000; cursor: pointer; padding: 4px 0; margin-bottom: 0; }
+.FAQ h6:before { content: ''; margin-right: 5px; display: inline-block; background: url('/media/university-of-west-florida/style-assets/images/leftFAQ_arrow_down.svg') no-repeat 0 0; width: 13px; height: 13px; }
+.FAQ h6.FAQis-open:before { content: ''; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
+.FAQ div { margin-left: 0px; margin-bottom: 5px; display: none; }
+/*.FAQ ul li { margin: 0; }*/
+.FAQ div.FAQis-open { display: block; }
+.no-svg .FAQ h6:before { background-image: url('/media/university-of-west-florida/style-assets/images/FAQ_closed.png'); }
+.no-svg .FAQ h6.FAQis-open:before { background-image: url('/media/university-of-west-florida/style-assets/images/FAQ_open.png'); }
+
+.soIC a figure { display: inline-block; padding-right: 5px;}
+/*End FAQ Open Close*/
+
+
+.icon-email:before { background-image: url('/media/university-of-west-florida/style-assets/images/icon_blue_email-02.svg'); }
+.no-svg .icon-phone:before { background-image: url('<img src="/media/university-of-west-florida/style-assets/images/icon_blue_email.png" alt="icon-envelope" style="    " />'); }
+
+
+
+/*Start Custom ETC */
+li.spaced { padding-bottom: 35px;}
+.cutla li:nth-child(even){ background: #ebf9fc; }
+/*End Custom ETC*/
+
+/*Begin NR*/
+.taglineNR { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/bei/BEI_wordsonly.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.taglineNR.taglineNR-smaller { width: 307px; height: 150px; padding: 0; margin-top: 0px; }
+.logo-nr { font-size: 40px; font-family: 'Oswald', sans-serif; color: white;}
+.logo-nr:visited { color: white; }
+.logo-nr:focus { color: white; }
+.logo-nr:hover { color: white; }
+.logo-nr:active { color: white; }
+.logo-nr span { color: #b1d74a; }
+.logo-nro { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/web-dev/newsroom/images/newsroom_header1.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+.logo.logo-nro-small { margin-bottom: 10px; }
+.logo.logo-nrp-smaller { width: 190px; height: 36px; padding: 0; }
+.l-nr-header { position: relative; background: #0069aa; background-image: -ms-linear-gradient(top, #0069aa 0, #2179b5 145px); background-image: -webkit-gradient(linear, 50% 0%, 50% 145, color-stop(0%, #0069aa), color-stop(100%, #2179b5)); background-image: -webkit-linear-gradient(top, #0069aa 0%, #2179b5 145px); background-image: -moz-linear-gradient(top, #0069aa 0%, #2179b5 145px); background-image: -o-linear-gradient(top, #0069aa 0%, #2179b5 145px); background-image: linear-gradient(top, #0069aa 0%, #2179b5 145px); }
+.l-nr-header .l-nr-header-top { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #9dc4df; }
+.l-nr-header .menu-toggle-container { margin-bottom: 0; }
+
+.l-nr-feature { background: white; position: relative; }
+
+.l-nr-section { position: relative; background: white; padding: 20px 0; }
+
+@media (min-width: 1024px) { .l-nr-header.landing { padding-bottom: 530px; }
+  .l-nr-header.landing + .l-nr-feature { margin-top: -530px; }
+  .l-nr-header.landing:before { content: ''; background: url('/media/university-of-west-florida/style-assets/images/cfpa-nautilus.png') no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 187px; height: 328px; } }
+.less { padding: 4px 0; display: inline-block; }
+.less:before { content: '<'; margin-right: 5px; position: relative; top: -1px; speak: none; }
+.sp:after { content: '•'; position: relative; top: -1px; speak: none; padding: 0 0.25em;}
+
+/*Newsroom's BLOCK BREADCRUMBS*/
+
+ul.block-nr-breadcrumbs { display: none; }
+ul.block-nr-breadcrumbs li:first-child { display: none; }
+ul.block-nr-breadcrumbs li:nth-child(3){ display:none; }
+ul.block-nr-breadcrumbs a { padding: 8px 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #0069aa; background-image: -ms-linear-gradient(top, #0069aa, #448cc0); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0069aa), color-stop(100%, #448cc0)); background-image: -webkit-linear-gradient(top, #0069aa, #448cc0); background-image: -moz-linear-gradient(top, #0069aa, #448cc0); background-image: -o-linear-gradient(top, #0069aa, #448cc0); background-image: linear-gradient(top, #0069aa, #448cc0); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); color: white; display: inline-block; position: relative; z-index: 5; cursor: pointer; }
+ul.block-nr-breadcrumbs li { position: relative; display: inline-block; margin: 0; z-index: 5; }
+ul.block-nr-breadcrumbs li + li { margin-left: -2px; z-index: 4; }
+ul.block-nr-breadcrumbs li + li a { padding-left: 25px; }
+ul.block-nr-breadcrumbs li + li + li { z-index: 3; }
+ul.block-nr-breadcrumbs li + li + li + li { z-index: 2; }
+ul.block-nr-breadcrumbs li + li + li + li + li { z-index: 1; }
+ul.block-nr-breadcrumbs li:after { position: absolute; top: 50%; right: 0; margin: -14px; width: 28px; height: 28px; border-right: 2px solid white; border-top: 2px solid white; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); content: ''; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: #0069aa; background-image: -ms-linear-gradient(top, #0069aa, #448cc0); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0069aa), color-stop(100%, #448cc0)); background-image: -webkit-linear-gradient(top, #0069aa, #448cc0); background-image: -moz-linear-gradient(top, #0069aa, #448cc0); background-image: -o-linear-gradient(top, #0069aa, #448cc0); background-image: linear-gradient(top, #0069aa, #448cc0); }
+ul.block-nr-breadcrumbs li:last-child a { -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; border-top-left-radius: 0; -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; border-bottom-left-radius: 0; background: #006094; background-image: -ms-linear-gradient(top, #006094, #0f4e70); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #006094), color-stop(100%, #0f4e70)); background-image: -webkit-linear-gradient(top, #006094, #0f4e70); background-image: -moz-linear-gradient(top, #006094, #0f4e70); background-image: -o-linear-gradient(top, #006094, #0f4e70); background-image: linear-gradient(top, #006094, #0f4e70); }
+ul.block-nr-breadcrumbs li:last-child:after { display: none; }
+
+@media (min-width: 768px) { ul.block-nr-breadcrumbs { display: block; } }
+/*End NR*/
+
+/* Add PDF icon to style - June 25 2014 */
+.a-pdf::after { margin-left: 10px; display: inline-block; vertical-align: middle; }
+.a-pdf::after { content: url('/media/university-of-west-florida/style-assets/images/icon-pdf.png'); }
+.no-svg .a-pdf::after { content: url('/media/university-of-west-florida/style-assets/images/icon-pdf.png'); }
+/* -- */
+
+
+/*Begin Cybersecurity - Added July 10, 2014*/
+
+.logo-cyber { font-size: 40px; font-family: 'Oswald', sans-serif; color: white; }
+.logo-cyber:visited { color: white; }
+.logo-cyber:focus { color: white; }
+.logo-cyber:hover { color: white; }
+.logo-cyber:active { color: white; }
+.logo-cyber span { color: #b1d74a; }
+
+.l-cyber-header {background: #0069aa url('/media/university-of-west-florida/style-assets/images/cybersecurity/Cybersecurity_Splash_Image.png') 50% 50%; background-repeat: no-repeat; background-size: cover; }
+.l-cyber-header .l-cyber-header-top { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #9dc4df; }
+.l-cyber-header .menu-toggle-container { margin-bottom: 0; }
+@media only screen and (min-width: 1024px) { .l-cyber-header.landing { padding-bottom: 530px; }
+.l-cyber-header.landing + .l-cyber-feature { margin-top: -530px;}
+.l-cyber-header.landing:before { content: '';  no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; } }
+
+ @media (min-width: 1024px) { .l-cyber-header.landing { padding-bottom: 530px; }
+	.l-cyber-header.landing + .l-cyber-feature { margin-top: -530px; }
+	.l-cyber-header.landing:before { content: ''; background: url('/media/university-of-west-florida/style-assets/images/cybersecurity/Cybersecurity_Splash_Image.png') no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; } }
+
+.l-cyber-feature { background: white; position: relative; }
+.l-cyber-section { position: relative; background: white; padding: 20px 0;}
+.l-cyber-main { position: relative; padding-left: 15px; padding-right: 15px; width: 100%; float: left; position: relative; }
+ 
+.nav-cyber { text-transform: uppercase; }
+.nav-cyber li { font-size: 19px; display: inline-block; width: 48%; text-align: center; }
+.nav-cyber a { padding: 10px 0; }
+@media (min-width: 768px) { .nav-cyber { text-align: center; margin-bottom: 20px; }
+  .nav-cyber a { padding: 0 26px 0 28px; text-align: left; }
+  .nav-cyber li { width: auto; border-left: 2px solid #a6c9e2; } }
+
+/*End Cybersecurity*/
+
+/*Start Generic Specialty Template - Blue Background / No Image - July 11, 2014 */
+
+.logo-spBlue { font-size: 40px; font-family: 'Oswald', sans-serif; color: white; }
+.logo-spBlue:visited { color: white; }
+.logo-spBlue:focus { color: white; }
+.logo-spBlue:hover { color: white; }
+.logo-spBlue:active { color: white; }
+.logo-spBlue span { color: #b1d74a; }
+
+.l-spBlue-header { position: relative; background: #0069aa; background-image: -ms-linear-gradient(top, #0069aa 0, #2179b5 145px); background-image: -webkit-gradient(linear, 50% 0%, 50% 145, color-stop(0%, #0069aa), color-stop(100%, #2179b5)); background-image: -webkit-linear-gradient(top, #0069aa 0%, #2179b5 145px); background-image: -moz-linear-gradient(top, #0069aa 0%, #2179b5 145px); background-image: -o-linear-gradient(top, #0069aa 0%, #2179b5 145px); background-image: linear-gradient(top, #0069aa 0%, #2179b5 145px); }
+.l-spBlue-header .l-spBlue-header-top { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #9dc4df; }
+.l-spBlue-header .menu-toggle-container { margin-bottom: 0; }
+
+.l-spBlue-feature { background: white; position: relative; }
+
+.l-spBlue-section { position: relative; background: white; padding: 20px 0; }
+
+@media (min-width: 1024px) { .l-spBlue-header.landing { padding-bottom: 530px; }
+  .l-spBlue-header.landing + .l-spBlue-feature { margin-top: -530px; } }
+
+  
+.nav-spBlue { text-transform: uppercase; }
+.nav-spBlue li { font-size: 19px; display: inline-block; width: 48%; text-align: center; }
+.nav-spBlue a { padding: 10px 0; }
+@media (min-width: 768px) { .nav-spBlue { text-align: center; margin-bottom: 20px; }
+  .nav-spBlue a { padding: 0 26px 0 28px; text-align: left; }
+  .nav-spBlue li { width: auto; border-left: 2px solid #a6c9e2; } }
+/*End Blue Generic Specialty Template*/
+
+
+/* Add other media icons to style - Aug 11 2014 */
+.a-ppt::after { margin-left: 10px; display: inline-block; vertical-align: middle; }
+.a-ppt::after { content: url('/media/university-of-west-florida/style-assets/images/Powerpoint-Icon.png'); }
+.no-svg .a-ppt::after { content: url('/media/university-of-west-florida/style-assets/images/Powerpoint-Icon.png'); }
+
+.a-doc::after { margin-left: 10px; display: inline-block; vertical-align: middle; }
+.a-doc::after { content: url('/media/university-of-west-florida/style-assets/images/Word-Icon.png'); }
+.no-svg .a-doc::after { content: url('/media/university-of-west-florida/style-assets/images/Word-Icon.png'); }
+
+.a-mp3::after { margin-left: 10px; display: inline-block; vertical-align: middle; }
+.a-mp3::after { content: url('/media/university-of-west-florida/style-assets/images/mp3-Icon.png'); }
+.no-svg .a-mp3::after { content: url('/media/university-of-west-florida/style-assets/images/mp3-Icon.png'); }
+
+
+.a-wma::after { margin-left: 10px; display: inline-block; vertical-align: middle; }
+.a-wma::after { content: url('/media/university-of-west-florida/style-assets/images/WindowsMedia-Icon.png'); }
+.no-svg .a-wma::after { content: url('/media/university-of-west-florida/style-assets/images/WindowsMedia-Icon.png'); }
+
+
+.a-none::after { margin-left: 10px; display: inline-block; vertical-align: middle; }
+.a-none::after { content: url('/media/university-of-west-florida/style-assets/images/Generic-Icon.png'); }
+.no-svg .a-none::after { content: url('/media/university-of-west-florida/style-assets/images/Generic-Icon.png'); }
+/* -- */
+
+/*Custom Blog Colors*/
+.slats-blog { list-style: none; }
+.slats-blog li { font-size: 14px; margin: 20px 0; }
+.slats-blog li:first-child { margin-top: 0; }
+.slats-blog li:last-child { margin-bottom: 0; }
+.slats-blog a { display: block; color: inherit; *zoom: 1; }
+.slats-blog a:after { content: ""; display: table; clear: both; }
+.slats-blog img { display: none; float: left; margin-right: 12px; max-width: 36%; }
+.slats-blog  .datetime { color: #00afdb; font-size: 13px; line-height: 1; margin-bottom: 6px; }
+.slats-blog  .datetime.stripe { background: url('/media/university-of-west-florida/style-assets/images/pattern-blue.png'); }
+.slats-blog  .datetime.stripe span { background-color: white; display: inline-block; padding-right: 12px; padding-left: 12px; margin-left: -12px; }
+.slats-blog .cal { float: left; margin-right: 10px; line-height: 1; font-family: "MuseoSlab"; background: #00853f; background-image: -ms-linear-gradient(top, #00853f, #44ad51); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00853f), color-stop(100%, #44ad51)); background-image: -webkit-linear-gradient(top, #00853f, #44ad51); background-image: -moz-linear-gradient(top, #00853f, #44ad51); background-image: -o-linear-gradient(top, #00853f, #44ad51); background-image: linear-gradient(top, #00853f, #44ad51); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); text-decoration: uppercase; padding: 7px 4px; text-align: center; color: white; }
+.slats-blog  .cal .m { text-transform: uppercase; min-width: 30px;}
+.slats-blog  .cal .d { font-size: 24px; }
+.slats-blog  .cal .mm { text-transform: uppercase; min-width: 30px;}
+.slats-blog  .cal .dd { font-size: 24px; }
+@media (min-width: 768px) { .slats-blog img { display: block; } }
+
+.hr-blog-background { font-family: "Oswald"; color: white; padding: 6px 10px 3px; margin-bottom: 20px; background-image: -ms-linear-gradient(top, #00853f, #44ad51); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00853f), color-stop(100%, #44ad51)); background-image: -webkit-linear-gradient(top, #00853f, #44ad51); background-image: -moz-linear-gradient(top, #00853f, #44ad51); background-image: -o-linear-gradient(top, #00853f, #44ad51); background-image: linear-gradient(top, #00853f, #44ad51); text-shadow: 1px 1px 1px #15547e; }
+
+
+.blogfeature-container { overflow: hidden; width: 85%; position: relative; background: transparent; list-style: none; margin: 0 auto; padding: 0; }
+.blogfeature-container img { display: block; }
+.blogfeature-container > * { position: relative; float: left; height: 100%; }
+.blogfeature-container > * .blogfeature-caption { position: absolute; bottom: 14px; background-color: black; background-color: rgba(0, 0, 0, 0.6); color: #fff; width: 100%; padding: 10px 14px; font-size: 1em; }
+.blogfeature-container  > * .blogfeature-caption * { color: white; }
+.blogfeature-container .blogfeature-caption h2 { color: white; font-size: 16px; font-family: Oswald; }
+.blogfeature-container .blogfeature-caption p { display: none; margin-bottom: 0; }
+
+@media (min-width: 768px) { .blogfeature-container .blogfeature-caption { padding: 8px 20px 45px !important; }
+  .blogfeature-container .blogfeature-caption h2 { color: white; font-size: 20px; }
+   }
+@media (min-width: 1024px) { .blogfeature-container .blogfeature-caption p { display: block; }
+  .blogfeature-container .blogfeature-caption h2 { color: white; font-size: 24px; } }
+
+ul.blog-breadcrumbs { display: none; }
+ul.blog-breadcrumbs li:first-child { display: none; }
+ul.blog-breadcrumbs li:nth-child(3){ display:none; }
+ul.blog-breadcrumbs a { padding: 8px 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; background: #0069aa; background-image: -ms-linear-gradient(top, #0069aa, #448cc0); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0069aa), color-stop(100%, #448cc0)); background-image: -webkit-linear-gradient(top, #0069aa, #448cc0); background-image: -moz-linear-gradient(top, #0069aa, #448cc0); background-image: -o-linear-gradient(top, #0069aa, #448cc0); background-image: linear-gradient(top, #0069aa, #448cc0); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); color: white; display: inline-block; position: relative; z-index: 5; cursor: pointer; }
+ul.blog-breadcrumbs li { position: relative; display: inline-block; margin: 0; z-index: 5; }
+ul.blog-breadcrumbs li + li { margin-left: -2px; z-index: 4; }
+ul.blog-breadcrumbs li + li a { padding-left: 25px; }
+ul.blog-breadcrumbs li + li + li { z-index: 3; }
+ul.blog-breadcrumbs li + li + li + li { z-index: 2; }
+ul.blog-breadcrumbs li + li + li + li + li { z-index: 1; }
+ul.blog-breadcrumbs li:after { position: absolute; top: 50%; right: 0; margin: -14px; width: 28px; height: 28px; border-right: 2px solid white; border-top: 2px solid white; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); content: ''; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: #0069aa; background-image: -ms-linear-gradient(top, #0069aa, #448cc0); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0069aa), color-stop(100%, #448cc0)); background-image: -webkit-linear-gradient(top, #0069aa, #448cc0); background-image: -moz-linear-gradient(top, #0069aa, #448cc0); background-image: -o-linear-gradient(top, #0069aa, #448cc0); background-image: linear-gradient(top, #0069aa, #448cc0); }
+ul.blog-breadcrumbs li:last-child a { -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; border-top-left-radius: 0; -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; border-bottom-left-radius: 0; background: #006094; background-image: -ms-linear-gradient(top, #006094, #0f4e70); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #006094), color-stop(100%, #0f4e70)); background-image: -webkit-linear-gradient(top, #006094, #0f4e70); background-image: -moz-linear-gradient(top, #006094, #0f4e70); background-image: -o-linear-gradient(top, #006094, #0f4e70); background-image: linear-gradient(top, #006094, #0f4e70); width: 15em; text-overflow: ellipsis; white-space: nowrap; overflow:hidden; top: 12px;}
+ul.blog-breadcrumbs li:last-child:after { display: none; }
+
+@media (min-width: 768px) { ul.blog-breadcrumbs { display: block; } }
+
+
+/*------*/
+
+/*Collapsible Text v2.0 */
+
+.collapsible-header {
+	color: #333; 
+	cursor: pointer; 
+	font-family: 'MuseoSlab', sans-serif; 
+	text-rendering: auto; 
+	-webkit-font-smoothing: antialiased;
+	line-height: 1em; 
+	display: table-row inline-block;}
+
+.collapsible-header h5{ 
+	font-size: 16px; 
+	text-indent: -2em; 
+	margin-left: 2em;}
+
+.collapsible-active-header { 
+	cursor: pointer; 
+	font-family: 'MuseoSlab', sans-serif; 
+	text-rendering: auto; 
+	-webkit-font-smoothing: antialiased; 
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f0f9ff 0%, #b5e6f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(100%,#b5e6f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f0f9ff 0%,#b5e6f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#b5e6f3',GradientType=0 ); /* IE6-9 */
+	border-top: #09AEDA solid .25em;
+	line-height: 1.25em; 
+	padding: 10px;}
+	
+.collapsible-inactive-header:hover { 
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f0f9ff 0%, #b5e6f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(100%,#b5e6f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f0f9ff 0%,#b5e6f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#b5e6f3',GradientType=0 ); /* IE6-9 */
+	border-top: #09AEDA solid .25em;}
+	
+.collapsible-active-header:before { 
+	content: ''; 
+	margin-right: 8px; 
+	width: 25px; 
+	height: 25px; 
+	background-image: url('/media/university-of-west-florida/style-assets/images/minus.svg'); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	padding-left: 35px; 
+	display: table-cell inline-block;}
+
+.collapsible-inactive-header {
+	cursor: pointer; 
+	font-family: 'MuseoSlab', sans-serif; 
+	text-rendering: auto; 
+	-webkit-font-smoothing: antialiased; 
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f0f9ff 0%, #b5e6f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(100%,#b5e6f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f0f9ff 0%,#b5e6f3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f0f9ff 0%,#b5e6f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#b5e6f3',GradientType=0 ); /* IE6-9 */
+	border-top: #FFF solid .25em;
+	line-height: 1.25em; 
+	vertical-align: central; 
+	padding: 10px;
+	display: table-cell inline-block;}
+
+.collapsible-inactive-header:before {
+	content: ''; 
+	margin-right: 8px; 
+	width: 25px; 
+	height: 25px; 
+	background-image: url('/media/university-of-west-florida/style-assets/images/Plus.svg'); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	padding-left: 35px;
+	display: table-cell inline-block;}
+
+.collapsible-content {
+	display: none;  
+	height: auto; 
+	padding: 10px; 
+	background: none;
+	margin: 0 2.5em;
+	
+	}
+
+/*Internal Banner Image Styles - July 16, 2015*/
+
+.intBanner { margin-top: -55px; margin-bottom: 15px; top:0; max-height: 250px; position: relative; z-index: 9; overflow: hidden; }
+@media (min-width: 768px) { .intBanner {margin-top: -20px; }}
+
+/*------*/
+
+
+
+
+//Single Link Navigation - added Feb 2016
+
+/*.sideLinks .cutla li:nth-child(even) a{
+	color: white;
+
+}*/
+
+@media (min-width: 350px) {
+.sideLinks {
+	background: none;
+
+
+}
+
+}
+
+.sideLinks .cutla li:nth-child(even){
+	background: none;
+  color: #333333;
+}
+
+.sideLinks .currentbranch0 {font-weight: bold; text-decoration: underline;}
+
+.sideLinks .cutla li:nth-child(even) a{
+	padding-left: 10px;
+	margin-left: 0;
+	background: rgba(184,180,180,0.24);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	display: block;
+  color: #333333;
+}
+
+
+.sideLinks .cutla a{
+
+	padding: 10px;
+	background: rgba(184,180,180,0.14);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	display: block;
+  color: #333333;
+
+}
+
+.sideLinks a:hover {
+  background: #dddddd;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#cccccc));
+  background: -moz-linear-gradient(top,  #dddddd,  #cccccc);
+
+}
+
+.sideLinks .cutla li:nth-child(even) a:hover {
+  background: #999999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#cccccc));
+  background: -moz-linear-gradient(top,  #dddddd,  #cccccc);
+
+}
+
+.sideLinks .active {
+	font-weight: bold;
+}
+
+
+
+/*Countdown Timer Styles*/
+
+.countdownWrapper {
+  text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	background: #09AEDA; /* Old browsers */
+	background: -moz-linear-gradient(top,  #09AEDA 0%, #003865 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#09AEDA), color-stop(100%,#003865)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #09AEDA 0%,#003865 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #09AEDA 0%,#003865 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #09AEDA 0%,#003865 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #09AEDA 0%,#003865 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09AEDA', endColorstr='#003865',GradientType=0 ); /* IE6-9 */
+  text-align: center;
+  padding: 2.875rem 1.625rem 2.6875rem 1.625rem;
+  position: relative;
+  margin-bottom: 50px;
+
+}
+
+.countdownWrapper p{ font-size: 14pt; line-height: 1.25;}
+
+.countdown {
+    color: #ededed;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    display: block;
+}
+.countdown h2 {
+  border-top: rgba(255, 255, 255, 0.5) 2px solid;
+  border-bottom: rgba(255, 255, 255, 0.5) 2px solid;
+  /*
+  border-top: rgba(0, 0, 0, 0.3) 2px solid;
+  border-bottom: rgba(0, 0, 0, 0.3) 2px solid;
+  */
+  font-size: 2.5em;
+  color: #ededed;
+}
+
+.countdownWrapper .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .3;
+    z-index: 1;
+  }
+
+.countdown .dateWrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  /*border: rgba(0, 0, 0, 0.3) 2px solid;*/
+  padding: 25px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+.countdown .dateWrapper:nth-child(3n+4), .countdown .dateWrapper:nth-child(3n+5) { margin-left: 15px;}}
+
+@media (max-width: 690px) { .countdown .dateWrapper {display: block; max-width: 55%; margin: 0 auto; margin-bottom: 15px; margin-top: 15px;}}
+
+.countdown .dateStamp {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  line-height: 1.125;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #ededed;
+
+}
+
+    /*Begin dso added for Presidential Search: Apr 2016*/
+    
+    .logo-DSO { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/media/university-of-west-florida/style-assets/images/presidential-search/PresSearch_Web_Round2-01.png'); background-repeat: no-repeat; background-position: 50% 50%; height: 0; padding-bottom: 20%; background-size: contain; }
+
+    .l-dso-header { position: relative; background: #0069AA;}
+    
+    .l-dso-header .l-dso-header-top { padding-top: 30px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #9dc4df; }
+    .l-dso-header .menu-toggle-container { margin-bottom: 0; }
+    .l-dso-feature { background: white; position: relative; }
+    .l-dso-section { position: relative; background: white; padding: 20px 0; }
+    @media only screen and (min-width: 1024px) { .l-dso-header.landing { padding-bottom: 530px; }
+    .l-dso-header.landing + .l-dso-feature { margin-top: -530px;}
+    .l-dso-header.landing:before { content: '';  no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 187px; height: 328px; } }
+     
+     @media (min-width: 1024px) { .l-dso-header.landing { padding-bottom: 530px; }
+      .l-dso-header.landing + .l-dso-feature { margin-top: -530px; }
+      .l-dso-header.landing:before { content: ''; background: url('/media/university-of-west-florida/style-assets/images/presidential-search/PresSearch_background-03.png') no-repeat 100% 100%; position: absolute; right: 0; bottom: 0; width: 100%; height: 100%; }  }
+    .l-dso-main { position: relative; padding-left: 15px; padding-right: 15px; width: 100%; float: left; position: relative; }
+     
+    .nav-dso { text-transform: uppercase; }
+    .nav-dso li { font-size: 19px; display: inline-block; width: 48%; text-align: center; }
+    .nav-dso a { padding: 10px 0; }
+    @media (min-width: 768px) { .nav-dso { text-align: center; margin-bottom: 20px; }
+      .nav-dso a { padding: 0 26px 0 28px; text-align: left; }
+      .nav-dso li { width: auto; border-left: 2px solid #a6c9e2; } }
+
+    /*End dso*/
+/*Center Figure*/
+.fig-center img {margin: 0 auto; display: block; margin-bottom: 25px;}
+
+
+/*Modal Box Correction: June 2016 [START]*/
+.reveal-modal {z-index: 999;}
+  @media only screen and (min-width: 768px) {
+    .reveal-modal {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 80%;} }
+/*Modal Box Correction [END]*/
+
+/*Emphasized style July 1, 2016 [START]*/
+
+.emphasized {background-color: #f2ebe1;padding: 10px;padding-right: 20px;margin-bottom: 25px;}
+.emphasized a.button { background-image: -ms-linear-gradient(top, #0069aa, #448cc0); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0069aa), color-stop(100%, #448cc0));background-image: -webkit-linear-gradient(top, #0069aa, #448cc0); background-image: -moz-linear-gradient(top, #0069aa, #448cc0); background-image: -o-linear-gradient(top, #0069aa, #448cc0); background-image: linear-gradient(top, #0069aa, #448cc0); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); width: 100%; font-family: "OswaldLight"; padding: 12px 24px 8px 9px; text-align: center;margin: 5px; font-size: 18px;}
+.emphasized a.button.secondary { background-color: #00853f; background-image: -ms-linear-gradient(top, #00853f, #44ad51); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00853f), color-stop(100%, #44ad51)); background-image: -webkit-linear-gradient(top, #00853f, #44ad51); background-image: -moz-linear-gradient(top, #00853f, #44ad51); background-image: -o-linear-gradient(top, #00853f, #44ad51); background-image: linear-gradient(top, #00853f, #44ad51); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); width: 100%; font-family: "OswaldLight"; padding: 12px 24px 8px 9px; text-align: center;margin: 5px; font-size: 18px;} 
+.emphasized ul {margin-bottom: 5px;}
+
+/*Emphasized [END]*/
+
+/*Cal icon*/
+.icon-cal:before { background-image: url('/media/university-of-west-florida/style-assets/images/calendar.svg'); }
+.no-svg .icon-cal:before { background-image: url('/media/university-of-west-florida/style-assets/images/calendar.png'); }
+
+
+/*Progress Bar*/
+.progress {
+  margin: 0 auto 2rem auto;
+  padding: 0;
+  width: 90%;
+  height: 30px;
+  overflow: hidden;
+  background: #e5e5e5;
+  border-radius: 6px; }
+
+.meter {
+  position: relative;
+  float: left;
+  min-width: 1%;
+  height: 100%; }
+
+.percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 12px;
+  color: white; }
+
+
+/*Faculty Profiles*/
+
+.fac-innerWrap {margin: 0 auto; width: 90%;}
+.fac-innerWrap figure {padding-top: 12px;}
+.fig-right {margin: 0 0 0 25px}
+.fac-headerWrap {padding-top: 8px; padding-bottom: 10px;}
+.fac-details {margin-left: 0;}
+.fac-details li { padding: 1.5px 0; }
+.fac-details ul{margin-bottom: 10px;}
+
+.fac-mainWrap {
+margin-bottom: 35px;
+margin-top: 0;
+-webkit-box-shadow: 1px 14px 16px -8px rgba(0,0,0,0.35);
+-moz-box-shadow: 1px 14px 16px -8px rgba(0,0,0,0.35);
+box-shadow: 1px 14px 16px -8px rgba(0,0,0,0.35);
+}
+
+.fac-contact a {padding: 5px 21px; }
+.fac-bottom-button hr {border: solid #cccccc; border-width: 1px 0 0; clear: both; margin: 1.25em 0 0 0; height: 0;}
+.fac-bottom-button {height: auto; }
+.fac-contact  li a:hover, .fac-contact li span:hover { text-decoration: underline;}
+
+
+.fac-bottom-button { text-transform: uppercase; }
+
+
+.icon-link:before { background-image: url('/media/university-of-west-florida/style-assets/images/icon_blue_link-03.svg'); }
+.no-svg .icon-link:before { background-image: url('/media/university-of-west-florida/style-assets/images/icon_blue_link.png'); }
+
+@media (min-width: 768px) {
+  .fac-details {margin-left: 30px;}
+  .fac-bottom-button li { text-align: left; width: auto; } }
