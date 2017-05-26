@@ -8,6 +8,11 @@
 
 import UIKit
 
+class Colors{
+    static let main:UIColor = UIColor(red: 0, green: 76/255.0, blue: 151/255.0, alpha: 1)
+    static let secondary:UIColor = UIColor(red: 0, green: 122/255.0, blue: 51/255.0, alpha: 1)
+}
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,16 +24,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let menu = storyboard.instantiateViewController(withIdentifier: "menu") as! MenuViewController
-        let main = storyboard.instantiateViewController(withIdentifier: "main") as! ViewController
-        
-        
+        let main = storyboard.instantiateViewController(withIdentifier: "map") as! MapViewController
+                
         
         let nvc: UINavigationController = UINavigationController(rootViewController: main)
-        UINavigationBar.appearance().tintColor = UIColor.red
-        menu.mainViewController = nvc
-
+        UINavigationBar.appearance().tintColor = Colors.main
+        menu.mainViewController = main
+        menu.title = "SummerSity"
         
-        let slideMenuController = SlideMenuController(mainViewController: nvc, leftMenuViewController: menu)
+        let menuNvc: UINavigationController = UINavigationController(rootViewController: menu)
+        
+        let slideMenuController = SlideMenuController(mainViewController: nvc, leftMenuViewController: menuNvc)
         slideMenuController.delegate = main
         
         self.window?.rootViewController = slideMenuController

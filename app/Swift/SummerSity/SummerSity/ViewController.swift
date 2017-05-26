@@ -11,7 +11,7 @@ extension UIViewController {
     
     func setNavigationBarItem() {
         self.addLeftBarButtonWithImage(UIImage(named: "ic_menu_black_24dp")!)
-        self.addRightBarButtonWithImage(UIImage(named: "ic_notifications_black_24dp")!)
+//        self.addRightBarButtonWithImage(UIImage(named: "ic_notifications_black_24dp")!)
         self.slideMenuController()?.removeLeftGestures()
         self.slideMenuController()?.removeRightGestures()
         self.slideMenuController()?.addLeftGestures()
@@ -27,9 +27,7 @@ extension UIViewController {
 }
 
 
-
-extension ViewController : SlideMenuControllerDelegate {
-    
+extension MapViewController : SlideMenuControllerDelegate {
     func leftWillOpen() {
         print("SlideMenuControllerDelegate: leftWillOpen")
     }
@@ -83,6 +81,7 @@ class ViewController: UIViewController {
 
     func changeVC(id:String, data:Any?){
         var vcid = ""
+        self.slideMenuController()?.closeLeft()
         
         if id == "Main"{
             vcid = "SummerCity"
@@ -95,11 +94,11 @@ class ViewController: UIViewController {
             self.navigationController?.pushViewController(vc!, animated: true)
         }
         if id == "Map"{
-            vcid = "Map"
+            vcid = "map"
             let vc = self.storyboard?.instantiateViewController(withIdentifier: vcid)
             self.navigationController?.pushViewController(vc!, animated: true)
         }
-        
+
         
     }
 

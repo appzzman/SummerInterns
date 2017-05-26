@@ -1,5 +1,5 @@
 //
-//  MenuViewController.swift
+//  OptionsViewController.swift
 //  SummerSity
 //
 //  Created by Janusz Chudzynski on 5/25/17.
@@ -8,23 +8,18 @@
 
 import UIKit
 
-class VCS{
-    static  let array = ["Map", "Options", "About"]
-}
-
-
-class MenuViewController: UIViewController {
-    
+class OptionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    let array = VCS.array
-    
-    var mainViewController:UIViewController?
+    let array = DataSource.locations()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-        // Do any additional setup after loading the view.
+        
+        self.title = "Options"
+        self.navigationItem.title = "Options"
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +27,7 @@ class MenuViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+
     /*
     // MARK: - Navigation
 
@@ -45,10 +40,13 @@ class MenuViewController: UIViewController {
 
 }
 
-extension MenuViewController: UITableViewDelegate, UITableViewDataSource{
+extension OptionsViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        (mainViewController! as! MapViewController).changeVC(id: self.array[indexPath.row], data: nil)
+    //    (mainViewController! as! MapViewController).changeVC(id: self.array[indexPath.row], data: nil)
+        let campus = array[indexPath.row]
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -60,23 +58,18 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource{
         
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.accessoryType = .disclosureIndicator
+
+        cell.textLabel?.text = array[indexPath.row].title!
+        let price = 2000 + arc4random()%5000
+        cell.detailTextLabel?.text = "Average Cost: $\(price)"
+        cell.imageView?.image = UIImage(named: "")
+        cell.detailTextLabel?.textColor = Colors.secondary.withAlphaComponent(0.6)
+        cell.detailTextLabel?.font = UIFont.systemFont(ofSize: 8)
         cell.textLabel?.textColor = Colors.main
-        cell.textLabel?.text = array[indexPath.row]
-        switch indexPath.row {
-        case 0:
-            cell.imageView?.image = UIImage(named:"Map-50")
-        case 1:
-            cell.imageView?.image = UIImage(named:"University-50")
-        case 2:
-            cell.imageView?.image = UIImage(named:"About-50")
-        default: break
-            
-        }
+        
         
         return cell
     }
-
+    
     
 }
-
