@@ -62,7 +62,8 @@ function round(value, decimals) {
       center: fl_cen
     });
     map.maxZoom = 6
-    
+
+
 
 
     getCollection('contact').then(function(contacts){
@@ -88,6 +89,7 @@ function round(value, decimals) {
   }
 
   function toggleBounce(e) {
+      console.log(e);
 
       var lat = e.latLng.lat()
       var lng = e.latLng.lng()
@@ -95,4 +97,10 @@ function round(value, decimals) {
       var filtered = globalContacts.filter(function(el){
         return round(el.latitude,4) === round(lat,4) &&  round(el.longitude,4) === round(lng,4)
       })
+      console.log(filtered[0].fullname);
+      console.log(filtered[0].key);
+      var loc = document.location.toString().split('#')[0];
+      document.location = loc + '#' + filtered[0].key
+      return false;
+
    }
